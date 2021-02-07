@@ -1,0 +1,7 @@
+#! /bin/bash -x
+
+random=$(( $RANDOM %5 ));
+
+DiceNo=$(( $random + 1 ));
+
+echo $DiceNo
